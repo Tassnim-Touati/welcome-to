@@ -1,0 +1,351 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 8000px;
+position: relative;
+}
+
+.logo{
+    font-weight: 700;
+    text-transform: uppercase;
+    background-image: linear-gradient( #7dfcef ,#947613,#f7cd52 ,#50c7bb,#55b69e);
+    background-size: 400%;
+    -webkit-text-fill-color: transparent;
+   -webkit-background-clip: text;
+    animation: new 5s linear infinite;
+}
+.logo:hover{
+    text-shadow: 5px 5px 30px rgb(20, 150, 155);
+}
+.dropdown-menu a  {
+    color: #28afa2;
+    font-size: 18px;
+}
+.annim {
+    color: #37cece;
+    font-size: 18px;
+}
+.annim:hover{
+    transform: scale(1.1,1.2);
+    text-shadow: (0px, 0px, 100px, blue );
+}
+
+.headerbtn:hover{
+opacity: 0.6;
+}
+
+/* //////////////////////////////////////////fin header////////////////////////////////////////////////////// */
+/*///////////////////////////////////////////debut section1//////////////////////////////////////////////////*/
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+.carousel-item{
+    height: 530px;
+    
+}
+.carousel-inner{
+    position: relative;
+}
+.carousel-caption{
+    position: absolute;
+    margin-bottom: 50px;
+   margin-left: 20px;
+   margin: auto;
+    height: 180px;
+    background-color: rgba(247, 207, 87, 0.418);
+    border-radius: 15px;
+    color: black;
+}
+.carbtn{
+background-color: #37cece;
+border-color: #37cece;
+color: white;
+}
+.carbtn:hover{
+background-color: #52dacc;
+
+}
+
+/*///////////////////////////////////////////fin section1/////////////////////////////////////////////////////*/
+/*//////////////////////////////////////////debut section2///////////////////////////////////////////////////*/
+.cc{
+    margin-bottom: 30px;
+    background-color: rgba(223, 185, 103, 0.842);
+}
+.btnw:hover{
+opacity: 0.7;
+}
+/*//////////////////////////////////////////////fin section2///////////////////////////////////////////////////*/
+/*///////////////////////////////////////////////debut section3///////////////////////////////////////////////*/
+#destination{
+    border-radius: 15px;
+    background-color: #9fe4dd;
+    color: #fff;
+    margin-bottom: 30px;
+}
+.collabtn{
+    margin-left: -50px;
+    
+    width: 1400px;
+    height: 60px;
+    background-color: white;
+}
+.rr{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.cardd{
+    font-weight: 700;
+    text-transform: uppercase;
+    background-image: linear-gradient( #1c9185 ,#239e92 ,#f7cd52 ,#55b69e);
+    background-size: 400%;
+    -webkit-text-fill-color: transparent;
+   -webkit-background-clip: text;
+    animation: new 5s linear infinite; 
+   
+}
+/*/////////////////////////////////////////////////fin section 3/////////////////////////////////////////////*/
+/*////////////////////////////////////////////////debut section 4////////////////////////////////////////////*/
+#translate-d{
+    border-radius: 10px;
+    background-color: #68cfc5;
+    color: #fff;
+}
+#translate-btn{
+    background-color: #f1d380; 
+    border-color: #f1d380;
+}
+#translate-btn:hover{
+    opacity: 0.7;
+}
+
+
+/*///////////////////////////////////////////////////fin section4//////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////debut section5//////////////////////////////////////////*/
+.image-fixe{
+    width: 1349px;
+    height: 300px;
+    background-image: url(../images/carthage.jpg);
+    background-attachment: fixed;
+}
+/*////////////////////////////////////////////////////fin section5//////////////////////////////////////////////*/
+/*///////////////////////////////////////////////////debut section6////////////////////////////////////////////*/
+#popular-t{
+    font-weight: 700;
+    text-transform: uppercase;
+    background-image: linear-gradient( #61440e , #816920,#3584df,#1ca817,#f1e27b);
+    background-size: 400%;
+    -webkit-text-fill-color: transparent;
+   -webkit-background-clip: text;
+    animation: new 5s linear infinite
+}
+#popular-d{
+    background-color: rgb(223, 192, 127);
+}
+.cardt::before{
+    position:absolute;
+    content: "";
+
+    width: 0;
+    height: 0;
+
+    bottom: 0;
+    right: 0;
+
+    background-color: rgb(41, 82, 214);
+    opacity: 0;
+
+    transition: 1s;
+}
+.cardt:hover::before{
+width: 100%;
+height: 100%;
+opacity: 0.3;
+
+}
+.cardt::after{
+    position:absolute;
+    content: "";
+
+    width: 0;
+    height: 0;
+
+    top: 0;
+    left: 0;
+
+    background-color: rgb(41, 82, 214);
+    opacity: 0;
+
+    transition: 1s;
+}
+.cardt:hover::after{
+width: 100%;
+height: 100%;
+opacity: 0.3;
+
+}
+.image-fixe2{
+    background-image: url(../images/ChottelDjerid.jpg);
+    background-attachment: fixed;
+    width: 100%;
+    height: 300px;
+    margin-top: 50px;
+}
+/*/////////////////////////////////////////////////////////////////////fin section6//////////////////////////////////*/
+/*//////////////////////////////////////////////////////////////////////debut section7///////////////////////////////*/
+.aside-icon{
+    width: 75px;
+    height: 75px;
+    margin-left: 93%;
+  
+}
+.aside-icon i{
+    font-size: 60px;
+}
+/*///////////////////////////////////////////////////////fin section 7/////////////////////////////////////////////*/
+/*///////////////////////////////////////////////////////debut section 8///////////////////////////////////////////*/
+/* .card-img-overley{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    z-index: 8;
+} */
+.card-img-overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+
+}
+.card-at a {
+    text-decoration: none;
+    color: white;
+}
+.card-at a:hover{
+color: rgb(90, 118, 245);
+}
+.card-all:hover{
+    transform: scale(0.9,0.9);
+}
+.card-all:hover .card-img-overlay{
+    background-color: rgba(54, 124, 216, 0.37);
+} 
+#popular-p{
+    background-color: rgb(223, 192, 127);
+}
+
+/*////////////////////////////////////////////////////fin section 8////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////debut section 11///////////////////////////////////////////////*/
+.all-footer{
+    margin-top: 100px;
+    background-color: #c4ad67;
+}
+.footer-info a {
+    color: white;
+    font-size: 18px;
+}
+.copy{
+    font-weight: 700;
+    font-size: 25px;
+    text-transform: uppercase;
+    background-image: linear-gradient(#17cf30, #14cfbd ,#219b7c,#3e9e3e ,#10a596);
+    background-size: 400%;
+    -webkit-text-fill-color: transparent;
+   -webkit-background-clip: text;
+    animation: new 5s linear infinite;
+}
+/*//////////////////////////////////////////////////////////fin section11//////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////debut section 9//////////////////////////////////////////////////////////*/
+#titleh{
+    font-weight: 700;
+    text-transform: uppercase;
+    background-image: linear-gradient( #61440e , #816920,#3584df,#1ca817,#f1e27b);
+    background-size: 400%;
+    -webkit-text-fill-color: transparent;
+   -webkit-background-clip: text;
+    animation: new 5s linear infinite;
+}
+.empty{
+    width: 90px;
+    height: 7px;
+    border-radius: 3px;
+    background-color: #ceab64;
+    -webkit-transition: width .2s;
+}
+.cardp:hover .empty{
+ width: 150px;
+}
+.cardl  a{
+    text-decoration: none;
+
+}
+.pol{
+     object-fit: cover; 
+     clip-path: polygon(0 0 , 80% 0, 70% 100%, 0 100%); 
+}
+.pol2{ 
+    object-fit: cover;  
+    clip-path: polygon(30% 100%, 100% 100%,100% 0,20% 0);
+} 
+.cardp:hover .pol{
+    transform: scale(1.09,1.095);
+ } 
+ .cardp:hover .pol2{
+    transform: scale(1.09,1.095);
+ } 
+ul .lli {
+    height: 30px;
+    min-width: 80px;
+    background-color: #ceab64;
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(255, 255, 254);
+    border-radius: 5px;
+}
+ul .il{
+    margin-left: 340px;
+}
+ul .lli i{
+    font-size: 21px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 6px;
+}
+/*////////////////////////////////////////////////fin section9/////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////debut section10//////////////////////////////////////////////////////////*/
+.cardf{
+   max-width: 250px;
+    max-height: 350px;
+    text-align: center;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px 20px 5px #b9b9b9;
+}
+.cardfc{
+    margin-top: 100px;
+}
+.ff img:hover {
+opacity: 0.5;
+transition: 1s;
+}
+.ff a {
+    text-decoration: none;
+     color: rgb(49, 168, 129);font-size: 25px;
+}
+.ff a:hover{
+    color: black;
+}
+.cardtt{
+    font-weight: 700;
+    text-transform: uppercase;
+    background-image: linear-gradient( #61440e , #816920,#3584df,#1ca817,#f1e27b);
+    background-size: 400%;
+    -webkit-text-fill-color: transparent;
+   -webkit-background-clip: text;
+    animation: new 5s linear infinite
+}
